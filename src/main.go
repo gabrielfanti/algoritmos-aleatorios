@@ -1,6 +1,8 @@
 package main
 
 import (
+	"algoritmos-aleatorios/src/exercicio01"
+	"algoritmos-aleatorios/src/exercicio02"
 	"algoritmos-aleatorios/src/exercicio11"
 	"algoritmos-aleatorios/src/exercicio12"
 	"algoritmos-aleatorios/src/exercicio13"
@@ -52,6 +54,10 @@ func main() {
 	fmt.Scanln(&exercicio)
 
 	switch exercicio {
+	case 01:
+		exercicio01.TwoFer()
+	case 02:
+		exercicio02.Troca()
 	case 11:
 		exercicio11.SomaQuadrados()
 	case 12:
