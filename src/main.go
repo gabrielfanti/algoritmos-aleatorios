@@ -5,6 +5,8 @@ import (
 	"algoritmos-aleatorios/src/exercicio12"
 	"algoritmos-aleatorios/src/exercicio13"
 	"algoritmos-aleatorios/src/exercicio14"
+	"algoritmos-aleatorios/src/exercicio15"
+	"algoritmos-aleatorios/src/exercicio16"
 	"fmt"
 )
 
@@ -58,6 +60,10 @@ func main() {
 		exercicio13.VelocidadeProjetil()
 	case 14:
 		exercicio14.EleicaoSindical()
+	case 15:
+		exercicio15.MediaAluno()
+	case 16:
+		exercicio16.SomandoNaturais()
 	}
 
 }
