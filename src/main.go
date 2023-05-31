@@ -7,6 +7,9 @@ import (
 	"algoritmos-aleatorios/src/exercicio14"
 	"algoritmos-aleatorios/src/exercicio15"
 	"algoritmos-aleatorios/src/exercicio16"
+	"algoritmos-aleatorios/src/exercicio17"
+	"algoritmos-aleatorios/src/exercicio18"
+	"algoritmos-aleatorios/src/exercicio19"
 	"fmt"
 )
 
@@ -64,6 +67,11 @@ func main() {
 		exercicio15.MediaAluno()
 	case 16:
 		exercicio16.SomandoNaturais()
+	case 17:
+		exercicio17.OrdenandoInteiros()
+	case 18:
+		exercicio18.Palindromo()
+	case 19:
+		exercicio19.ScrabbleScore()
 	}
-
 }
