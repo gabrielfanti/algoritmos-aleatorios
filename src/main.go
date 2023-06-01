@@ -3,6 +3,14 @@ package main
 import (
 	"algoritmos-aleatorios/src/exercicio01"
 	"algoritmos-aleatorios/src/exercicio02"
+	"algoritmos-aleatorios/src/exercicio03"
+	"algoritmos-aleatorios/src/exercicio04"
+	"algoritmos-aleatorios/src/exercicio05"
+	"algoritmos-aleatorios/src/exercicio06"
+	"algoritmos-aleatorios/src/exercicio07"
+	"algoritmos-aleatorios/src/exercicio08"
+	"algoritmos-aleatorios/src/exercicio09"
+	"algoritmos-aleatorios/src/exercicio10"
 	"algoritmos-aleatorios/src/exercicio11"
 	"algoritmos-aleatorios/src/exercicio12"
 	"algoritmos-aleatorios/src/exercicio13"
@@ -57,10 +65,26 @@ func main() {
 	fmt.Scanln(&exercicio)
 
 	switch exercicio {
-	case 01:
+	case 1:
 		exercicio01.TwoFer()
-	case 02:
+	case 2:
 		exercicio02.Troca()
+	case 3:
+		exercicio03.AjusteSalarial()
+	case 4:
+		exercicio04.FizzBuzz()
+	case 5:
+		exercicio05.AreaCircunferencia()
+	case 6:
+		exercicio06.SomaPares()
+	case 7:
+		exercicio07.SalarioLiquidoProfessor()
+	case 8:
+		exercicio08.VolumeCaixa()
+	case 9:
+		exercicio09.ConversaoReal()
+	case 10:
+		exercicio10.ConversaoDolar()
 	case 11:
 		exercicio11.SomaQuadrados()
 	case 12:
