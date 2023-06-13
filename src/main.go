@@ -20,6 +20,19 @@ import (
 	"algoritmos-aleatorios/src/exercicio17"
 	"algoritmos-aleatorios/src/exercicio18"
 	"algoritmos-aleatorios/src/exercicio19"
+	"algoritmos-aleatorios/src/exercicio20"
+	"algoritmos-aleatorios/src/exercicio21"
+	"algoritmos-aleatorios/src/exercicio22"
+	"algoritmos-aleatorios/src/exercicio23"
+	"algoritmos-aleatorios/src/exercicio24"
+	"algoritmos-aleatorios/src/exercicio25"
+	"algoritmos-aleatorios/src/exercicio26"
+	"algoritmos-aleatorios/src/exercicio27"
+	"algoritmos-aleatorios/src/exercicio28"
+	"algoritmos-aleatorios/src/exercicio29"
+	"algoritmos-aleatorios/src/exercicio30"
+	"algoritmos-aleatorios/src/exercicio31"
+	"algoritmos-aleatorios/src/exercicio32"
 	"fmt"
 )
 
@@ -103,5 +116,31 @@ func main() {
 		exercicio18.Palindromo()
 	case 19:
 		exercicio19.ScrabbleScore()
+	case 20:
+		exercicio20.Fatorial()
+	case 21:
+		exercicio21.AlgarismosRomanos()
+	case 22:
+		exercicio22.Primo()
+	case 23:
+		exercicio23.Jokenpo()
+	case 24:
+		exercicio24.JokenpoSheldon()
+	case 25:
+		exercicio25.SomaPares()
+	case 26:
+		exercicio26.Anagramas()
+	case 27:
+		exercicio27.LetrasRepetidas()
+	case 28:
+		exercicio28.Fibonacci()
+	case 29:
+		exercicio29.Pangrama()
+	case 30:
+		exercicio30.Troco()
+	case 31:
+		exercicio31.QuebraLinha()
+	case 32:
+		exercicio32.Sudoku()
 	}
 }
